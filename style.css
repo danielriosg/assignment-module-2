@@ -75,8 +75,12 @@ nav {
 
 .gallery img {
   width: 100%;
-  border: 1px solid #ccc;
   margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
 }
 
 .gallery img.large {
